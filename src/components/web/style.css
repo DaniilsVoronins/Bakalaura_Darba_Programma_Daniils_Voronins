@@ -1,0 +1,149 @@
+.body {
+  background-color: #e2e4e3;
+  height: auto;
+}
+
+.devel {
+  font-size: 2.5rem;
+  line-height: 1.4;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.circle2 {
+  background-color: #f1c50e;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+  margin-top: 1rem;
+  margin-left: 15rem;
+}
+@media screen and (max-width: 500px) {
+  .circle2 {
+    background-color: #f1c50e;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-left: 15rem;
+  }
+  .devel {
+    line-height: 1.4;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .girlpic {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+  }
+  .girl {
+    height: 15rem;
+    width: 11rem;
+  }
+}
+
+.web {
+  display: flex;
+  justify-content: center;
+  margin-top: 12rem;
+}
+.girl {
+  width: 25rem;
+}
+.girlpic {
+  margin-top: -5rem;
+}
+
+.yelowbar {
+  height: 10rem;
+  width: 37rem;
+  background-color: #f1c50e;
+  margin-top: 2rem;
+}
+.quik {
+  line-height: inherit;
+  /* margin: 20px 0 0; */
+
+  font-size: 1.125rem;
+  margin-top: 1rem;
+}
+.quik1 {
+  padding-left: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+  .yelowbar {
+    height: 10rem;
+    width: 20rem;
+    background-color: #f1c50e;
+    margin-top: 2rem;
+  }
+
+  .quik {
+    margin: 20px 0 0;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+.learn {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .circle2 {
+    background-color: #f1c50e;
+    width: 24rem;
+    height: 24rem;
+    border-radius: 50%;
+    margin-top: 3rem;
+    margin-left: 12rem;
+  }
+  .girl {
+    width: 38rem;
+  }
+  .girlpic {
+    margin-top: -8rem;
+    margin-left: 2rem;
+  }
+  .web {
+    display: flex;
+    justify-content: center;
+    margin-top: 12rem;
+    margin-left: 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .circle2 {
+    background-color: #f1c50e;
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+    margin-top: 3rem;
+    margin-left: 12rem;
+  }
+  .girlpic {
+    margin-left: 5rem;
+  }
+  .girl {
+    width: 38rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .circle2 {
+    background-color: #f1c50e;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-left: 6rem;
+  }
+}

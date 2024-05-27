@@ -1,0 +1,105 @@
+.perfect {
+  font-size: 3rem;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+.padding {
+  background-color: #e2e4e3;
+}
+.bar2 {
+  height: 10rem;
+  width: 100%;
+  background-color: #f1c50e;
+  margin-top: 10rem;
+}
+.bg-clr {
+  background-color: white;
+  height: auto;
+  margin-top: -15rem;
+}
+
+/* .card2 {
+  background-color: white;
+  padding: 1.5rem;
+  z-index: 1;
+} */
+.center-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.man {
+  height: 13rem;
+  width: 13rem;
+  border-radius: 50%;
+  padding: 1.5rem;
+}
+
+.whitemain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.brown {
+  font-family: Oswald, sans-serif;
+  font-weight: 500;
+}
+.lead {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #e73567;
+}
+.icons {
+  font-size: 2rem;
+  color: #959595;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+.button-2 {
+  border: 2px solid !important;
+  font-size: x-large !important;
+  font-weight: 500 !important;
+  padding: 5px 25px 5px 25px !important;
+  border-color: black !important;
+  background-color: transparent !important;
+}
+.lastbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+.btn:hover {
+  cursor: pointer !important;
+  background: black !important;
+  color: white !important;
+}
+button:focus:not(:focus-visible) {
+  outline: 0;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .perfect {
+    font-size: 4rem;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .whitemain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+  }
+}

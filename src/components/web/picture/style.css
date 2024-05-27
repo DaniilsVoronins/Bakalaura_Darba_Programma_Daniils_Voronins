@@ -1,0 +1,102 @@
+.section1 {
+  margin-top: 9rem;
+  display: flex;
+  justify-content: right;
+}
+
+.studio {
+  width: 30rem;
+  padding-left: 2rem;
+  z-index: 1;
+}
+.mainbox {
+  display: flex;
+  justify-content: right;
+}
+
+.box2 {
+  height: 26rem;
+  width: 29rem;
+  background-color: #f1c50e;
+  margin-top: 5rem;
+  z-index: 0;
+  position: absolute;
+}
+
+.dolor {
+  font-size: 1.875rem;
+  font-weight: 400;
+}
+.dui {
+  font-size: 1.875rem;
+  font-weight: 400;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  margin-right: 8rem;
+  flex-direction: column;
+}
+
+.button {
+  padding: 0.25rem;
+  background-color: black;
+  align-items: center;
+  width: 7rem;
+}
+.btn12 {
+  flex: none;
+  justify-content: left;
+}
+@media screen and (max-width: 500px) {
+  .box2 {
+    height: 18rem;
+    width: 15rem;
+    background-color: #f1c50e;
+    margin-top: 5rem;
+    z-index: 0;
+    position: absolute;
+  }
+  .dui {
+    font-size: 1.25rem;
+    font-weight: 400;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .dui {
+    font-size: 1.875rem;
+    font-weight: 500;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    margin-right: 8rem;
+    flex-direction: column;
+    margin-left: 2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .studio {
+    width: 34rem;
+    padding-left: 2rem;
+    z-index: 1;
+  }
+  .box2 {
+    height: 24rem;
+    width: 29rem;
+    background-color: #f1c50e;
+    margin-top: 5rem;
+    z-index: 0;
+    position: absolute;
+  }
+  .btn12 {
+    flex: none;
+    justify-content: left;
+  }
+}

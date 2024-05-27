@@ -1,0 +1,284 @@
+.body {
+  background-color: #e2e4e3;
+  height: auto;
+}
+.box {
+  height: 20rem;
+  width: 80%;
+  background-color: #f1c50e;
+  margin-top: 13rem;
+  position: absolute;
+  z-index: 0;
+}
+.whiteboxa {
+  height: 21rem;
+  width: 17rem;
+  background-color: white;
+  margin-left: 2rem;
+  padding: 2rem;
+  z-index: 2;
+  margin-top: 2rem;
+}
+.whiteboxb {
+  height: 21rem;
+  width: 17rem;
+  background-color: white;
+  margin-left: 2rem;
+  padding: 2rem;
+  z-index: 2;
+}
+@media screen and(max-width: 500px) {
+  .whiteboxa {
+    height: 21rem;
+    width: 17rem;
+    background-color: white;
+    margin-left: 2rem;
+    padding: 1rem;
+    z-index: 2;
+  }
+  .whiteboxb {
+    height: 21rem;
+    width: 17rem;
+    background-color: white;
+    margin-left: 2rem;
+    padding: 1rem;
+    z-index: 2;
+    margin-top: 9rem;
+  }
+  .whiteboxd {
+    height: 21rem;
+    width: 17rem;
+    background-color: white;
+
+    margin-left: 4rem;
+    padding: 2rem;
+    z-index: 2;
+  }
+}
+.boxes {
+  z-index: 2;
+  margin-top: 15rem;
+}
+.whiteboxc {
+  height: 21rem;
+  width: 17rem;
+  background-color: white;
+  margin-left: 2rem;
+  padding: 2rem;
+  z-index: 2;
+}
+.whiteboxd {
+  height: 21rem;
+  width: 17rem;
+  background-color: white;
+  margin-top: -7rem;
+  padding: 2rem;
+  z-index: 2;
+  margin-top: 15rem;
+}
+.green {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  background-color: #86e1d5;
+  margin-top: -1rem;
+}
+.yellow {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  background-color: #f1c50e;
+  margin-top: -1rem;
+}
+.pink {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  background-color: #e72b5d;
+  margin-top: -1rem;
+}
+.camera {
+  font-size: 3rem;
+  color: white;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+}
+.sample {
+  font-size: px;
+  margin: 20px auto 0 0;
+  width: 90%;
+  margin-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+.text {
+  color: #84aec8;
+  line-height: 1.5;
+  font-style: italic;
+  margin: 20px auto 0 0;
+  font-size: 1rem;
+  margin-top: -2px;
+}
+.brick {
+  font-size: 3rem;
+  color: white;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+.blue {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  background-color: #167fe1;
+  margin-top: -1rem;
+}
+.about {
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  line-height: 1;
+  font-weight: 400;
+  margin-top: 8rem;
+}
+.need {
+  font-weight: 700;
+  font-size: 3.75rem;
+  margin: 12px 0 0;
+}
+.lorem {
+  font-size: 1.172rem;
+  margin-top: 1rem;
+}
+.btn11 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  padding: 0.25rem;
+  background-color: black;
+  align-items: center;
+  width: 9rem;
+}
+@media screen and (max-width: 500px) {
+  .button {
+    padding: 0.25rem;
+    background-color: black;
+    align-items: center;
+    width: 6rem;
+  }
+  .lorem {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  .need {
+    font-weight: 700;
+    font-size: 2.75rem;
+    margin: 12px 0 0;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .box {
+    height: 20rem;
+    width: 25rem;
+    background-color: #f1c50e;
+    margin-top: 13rem;
+    position: absolute;
+    z-index: 0;
+  }
+  .whiteboxa {
+    height: 20rem;
+    width: 14rem;
+    background-color: white;
+    margin-left: 2rem;
+    padding: 1rem;
+    z-index: 2;
+  }
+  .need {
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 12px 0 0;
+    margin-left: 2rem;
+  }
+  .about {
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    line-height: 1;
+    font-weight: 400;
+    margin-top: 8rem;
+    margin-left: 2rem;
+  }
+  .lorem {
+    font-size: 1.172rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    text-align: left;
+    font-family: sans-serif;
+  }
+  .green {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    background-color: #86e1d5;
+  }
+}
+@media screen and (max-width: 768px) {
+  .whiteboxa {
+    height: 22rem;
+    width: 19rem;
+    background-color: white;
+    margin-left: 2rem;
+    padding: 1rem;
+    z-index: 2;
+  }
+  .sample {
+    font-size: 2rem;
+    margin: 20px auto 0 0;
+    width: 90%;
+    margin-top: 1rem;
+    padding-bottom: 0.5rem;
+  }
+  .text {
+    color: #84aec8;
+    line-height: 1.5;
+    font-style: italic;
+    margin: 20px auto 0 0;
+    font-size: 1.25rem;
+    margin-top: -2px;
+  }
+  .need {
+    font-weight: 700;
+    font-size: 4rem;
+  }
+  .about {
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    line-height: 1;
+    font-weight: 400;
+    margin-top: 8rem;
+    font-size: 4rem;
+  }
+  .lorem {
+    font-size: 1.95rem;
+    margin-top: 1rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .box {
+    height: 20rem;
+    width: 15rem;
+    background-color: #f1c50e;
+    margin-top: 13rem;
+    position: absolute;
+    z-index: 0;
+  }
+}
+@media screen and (max-width: 320px) {
+  .whiteboxa {
+    height: 22rem;
+    width: 17rem;
+    background-color: white;
+    margin-left: 2rem;
+    padding: 1rem;
+    margin-right: 2rem;
+    z-index: 2;
+  }
+}

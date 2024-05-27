@@ -1,0 +1,148 @@
+.mainpic {
+  background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/e2c37abd195b51db89cbc587/-min.jpg");
+  width: 100%;
+  height: auto;
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+.graybox {
+  height: 25rem;
+  width: 37rem;
+  background-color: #292d33;
+}
+
+@media screen and (max-width: 500px) {
+  .graybox {
+    height: 18rem;
+    width: 25rem;
+    background-color: #292d33;
+  }
+  .br {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #f1c50e;
+  }
+  .help {
+    color: white;
+    font-size: o.5rem;
+    line-height: 1.8;
+  }
+}
+
+.abc {
+  padding-top: 12rem;
+  padding-left: 3rem;
+}
+.br {
+  font-size: 6rem;
+  font-weight: 400;
+  color: #f1c50e;
+}
+.brand {
+  padding-top: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.help {
+  color: white;
+  font-size: 1.5rem;
+  line-height: 1.8;
+}
+.all {
+  font-weight: 500;
+  padding: 7px 60px 7px 60px;
+  font-size: x-large;
+  border: 0.75px solid;
+  background-color: #f1c50e;
+}
+
+@media screen and (max-width: 768px) {
+  .graybox {
+    height: 20rem;
+    width: 25rem;
+    background-color: #292d33;
+  }
+  .br {
+    font-size: 4rem;
+    font-weight: 400;
+    color: #f1c50e;
+  }
+  .help {
+    color: white;
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+  .all {
+    font-weight: 400;
+    padding: 3px 20px 3px 20px;
+    font-size: x-large;
+    border: 0.75px solid;
+    background-color: #f1c50e;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .graybox {
+    height: 20rem;
+    width: 22rem;
+    background-color: #292d33;
+  }
+  .help {
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  .all {
+    font-weight: 400;
+    padding: 3px 20px 3px 20px;
+    font-size: large;
+    border: 0.75px solid;
+    background-color: #f1c50e;
+  }
+  .br {
+    font-size: 3.5rem;
+    font-weight: 400;
+    color: #f1c50e;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .graybox {
+    height: 20rem;
+    width: 19rem;
+    background-color: #292d33;
+  }
+  .br {
+    font-size: 3.5rem;
+    font-weight: 400;
+    color: #f1c50e;
+    margin-left: 1rem;
+  }
+  .help {
+    color: white;
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+}
+@media screen and (max-width: 320px) {
+  .graybox {
+    height: 20rem;
+    width: 16rem;
+    background-color: #292d33;
+  }
+  .help {
+    color: white;
+    font-size: 0.75rem;
+    line-height: 1.8;
+  }
+  .all {
+    font-weight: 400;
+    padding: 2px 10px 2px 10px;
+    font-size: large;
+    border: 0.75px solid;
+    background-color: #f1c50e;
+  }
+}

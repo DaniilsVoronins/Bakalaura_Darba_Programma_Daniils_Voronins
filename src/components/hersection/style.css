@@ -1,0 +1,131 @@
+.body {
+  background-color: #e2e4e3;
+  height: auto;
+}
+.circle {
+  background-color: #f1c50e;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.design {
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 1;
+  text-align: right;
+  margin-right: -5rem !important;
+}
+.img11 {
+  width: 100% !important;
+}
+.button {
+  padding: 0.25rem;
+  background-color: black;
+  align-items: center;
+  width: 7rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.read {
+  color: white;
+  margin-top: 0.5rem;
+}
+.btn11 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+@media only screen and (max-width: 500px) {
+  .circle {
+    background-color: #f1c50e;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .design {
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 1;
+    text-align: right;
+    margin-left: -5rem !important;
+  }
+  .para {
+    font-weight: 600;
+    font-size: 5rem;
+    font-style: normal;
+    text-align: center;
+    margin-top: -1rem;
+  }
+}
+.para {
+  font-weight: 600;
+  font-size: 1rem;
+  font-style: normal;
+  text-align: center;
+  margin-top: -1rem;
+}
+@media only screen and (max-width: 500px) {
+  .para {
+    font-weight: 600;
+    font-size: 12px;
+    font-style: normal;
+    width: 18rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .design {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    text-align: right;
+    margin-left: -2rem;
+  }
+  .para {
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: left;
+    margin-left: 1rem;
+    margin-top: -2rem;
+  }
+  .img11 {
+    width: 99%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .circle {
+    background-color: #f1c50e;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .design {
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1;
+    text-align: right;
+    margin-left: -3rem;
+  }
+
+  .para {
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-align: left;
+    margin-left: 1rem;
+    margin-top: -2rem;
+  }
+}
