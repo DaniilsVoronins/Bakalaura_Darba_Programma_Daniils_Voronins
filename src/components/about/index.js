@@ -2,7 +2,6 @@ import { Col, Row } from "antd";
 import React from "react";
 import "./style.css";
 import AboutCard from "../aboutcard";
-
 function About() {
   return (
     <div className="body">
@@ -44,7 +43,6 @@ function About() {
           </div>
         </Col>
       </Row>
-      {/* end */}
     </div>
   );
 }

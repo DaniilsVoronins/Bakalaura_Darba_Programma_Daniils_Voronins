@@ -4,7 +4,6 @@ import { Facebook } from "react-bootstrap-icons";
 import { Twitter } from "react-bootstrap-icons";
 import { Instagram } from "react-bootstrap-icons";
 import { ExclamationLg } from "react-bootstrap-icons";
-
 function Footer() {
   return (
     <div className="body3">
@@ -25,5 +24,4 @@ function Footer() {
     </div>
   );
 }
-
 export default Footer;
