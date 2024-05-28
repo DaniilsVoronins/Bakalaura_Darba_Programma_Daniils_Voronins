@@ -1,9 +1,6 @@
 import { Col, Row } from "antd";
 import React from "react";
 import "./style.css";
-import { CameraOutlined } from "@ant-design/icons";
-import { AppstoreAddOutlined } from "@ant-design/icons";
-import { MedicineBoxOutlined } from "@ant-design/icons";
 import AboutCard from "../aboutcard";
 
 function About() {

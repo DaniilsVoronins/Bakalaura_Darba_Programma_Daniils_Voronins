@@ -3,7 +3,7 @@ import { Col, Row } from "antd";
 import "./style.css";
 import { CameraOutlined } from "@ant-design/icons";
 
-function AboutCard({ heading, text }) {
+function AboutCard({ heading }) {
   return (
     <div>
       <Col lg={9}>
